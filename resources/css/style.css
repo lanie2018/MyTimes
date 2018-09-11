@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Oswald:600');
+
+body {
+	margin: 0;
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+header {
+	display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+}
+header ul {
+    margin-right: 40px;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+header li a {
+    color: black;
+    font-size: 1.0rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+    color: #38d8b9;
+}
+.logo img {
+    width: 70px;
+    height: 60px;
+    margin-right: 12px;
+}
+nav span {
+	display: inline-block;
+	padding-right: 50px;
+}
+p {
+    font-size: 1.2rem;
+}
+.container {
+    position: relative;
+    padding-top: 120px;
+    display: flex;
+    flex-grow: 1;
+    margin: 0 50px 80px 80px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.content-1 {
+    width: 50%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content-1 img {
+    width: 100%;
+}
+.content-1 .mc-1 {
+    position: relative;  
+}
+.content-1 .mc-1 h1 {
+    background-image: url(../image/img-story-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.content-1 .mc-1 .mc-title {
+    color: white;
+    font-size: 2.50rem;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-1 .mc-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content-1 .mc-2 h2 {
+    font-size: 2.25rem;
+    font-family: 'Oswald', sans-serif;
+}
+.content-1 .mc-2 .left {
+    margin-right: 10px;
+}
+.content-1 .mc-2 .right {
+    margin-left: 10px;
+}
+.content-1 .mc-3 {
+    display: flex;
+    height: 260px;
+}
+.content-1 .mc-3 h2 { 
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.content-1 .mc-3 .right {
+    background-image: url(../image/img-story-3.png);
+    background-size: cover;
+    width: 100%;
+    margin-right: 10px;
+    font-size: 1.30rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.content-1 .mc-3 .left {
+    background-image: url(../image/img-story-2.png);
+    background-size: cover;
+    width: 100%;
+    margin-right: 10px;
+    font-size: 1.30rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/*Second Content*/
+
+.content-2 {
+    width: 27%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content-2 .add h2 {
+    font-size: 2.50rem;
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.content-2 .story1 {
+    width: 100%;
+    background-image: url(../image/img-story-1.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.content-2 .story1 h2 {
+    padding: 0 20px;
+    font-size: 2.25rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+/*Third Content*/
+.content-3  {
+    width: 23%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content-3 h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom:20px ;
+}
+.content-3 .bites  {
+ width: 100%;
+}
+.content-3 .nav {
+    width: 100%;
+}
+.content-3 .bites img {
+    width: 100%;
+    margin: 0;
+}
+.content-3 .bites h3 {
+    width: 100%;
+    font-size: 1.7rem;
+    font-family: 'Oswald', sans-serif;
+}
+.content-3 .bites ul {
+    list-style: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.content-3 .bites li { 
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.content-3 .bites li > a {
+    text-decoration: none;
+    font-size: .80rem;
+    padding: 20px;
+    color: black;
+    display: inline-block;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    height: 300px;
+    background-color: MediumAquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+footer #footer {
+    line-height: 2.5;
+    text-align: center;
+    width: 100%;
+}
+footer .mytimes {
+    border-right: 1px solid white;
+    padding-right: 25px;
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+footer span {
+    margin: 20px;
+    font-size: 16px;
+    text-decoration: underline;
+}
